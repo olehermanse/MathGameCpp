@@ -1,0 +1,6 @@
+proj.*/*
+bin/*
+cocos2d/*
+CMakeLists.txt
+.DS_Store
+*/.DS_Store
