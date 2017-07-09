@@ -16,7 +16,11 @@ rm -rf temp
 cmake .
 make -j2
 ```
-There is 1 error in cocos2d (on OSX), I have submitted a Pull Request to fix it here:
+If you get this error:
+```
+error: reference to 'Rect' is ambiguous
+```
+I have submitted a Pull Request to fix it here:
 https://github.com/cocos2d/cocos2d-x/pull/18048
 
 ## Run
@@ -34,3 +38,15 @@ The cocos tool is still useful sometimes:
 cocos compile -p ios
 cocos run -p ios
 ```
+
+If you get this error:
+```
+Building mode: debug
+Building...
+invalid literal for float(): 8.3.3
+
+Build failed: Take a look at the output above for details.
+```
+
+I have submitted a Pull Request to fix this here:
+https://github.com/cocos2d/cocos2d-console/pull/424
