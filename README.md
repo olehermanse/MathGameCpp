@@ -10,6 +10,7 @@ cd MathGameCpp
 
 ## Compile
 ```
+python3 icons.py
 cocos new -p com.olehermanse.arithmeticgame -l cpp -d ./temp MathGameCpp
 cp -R temp/MathGameCpp/cocos2d ./
 rm -rf temp
