@@ -10,7 +10,7 @@ cd MathGameCpp
 
 ## Compile
 ```
-cocos new -p com.olehermanse.mathgamecpp -l cpp -d ./temp MathGameCpp
+cocos new -p com.olehermanse.arithmeticgame -l cpp -d ./temp MathGameCpp
 cp -R temp/MathGameCpp/cocos2d ./
 rm -rf temp
 cmake .
@@ -25,7 +25,7 @@ https://github.com/cocos2d/cocos2d-x/pull/18048
 
 ## Run
 ```
-./bin/MathGameCpp
+./bin/ArithmeticGame
 ```
 
 ## Cocos Command Line tool
@@ -50,3 +50,7 @@ Build failed: Take a look at the output above for details.
 
 I have submitted a Pull Request to fix this here:
 https://github.com/cocos2d/cocos2d-console/pull/424
+
+## LICENSE
+This project is licensed under the MIT License, which is the same license as cocos2d-x.
+See [LICENSE.txt](./LICENSE.txt) for more info.
