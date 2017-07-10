@@ -13,8 +13,11 @@ proj.win32
 proj.ios_mac/build
 proj.ios_mac/ios
 proj.ios_mac/mac
+proj.ios_mac/ArithmeticGame.xcodeproj/project.xcworkspace
+proj.ios_mac/ArithmeticGame.xcodeproj/xcuserdata
 proj.ios_mac/MathGameCpp.xcodeproj/project.xcworkspace
 proj.ios_mac/MathGameCpp.xcodeproj/xcuserdata
+proj.ios_mac/MathGameCpp-mobile
 
 cmake_install.cmake
 CMakeFiles
